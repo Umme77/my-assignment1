@@ -1,0 +1,140 @@
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* shared style */
+
+  .button-content{
+    background-color: #006A50;
+    color: #fff;
+    border: none;
+    padding:10px 20px;
+    border-radius: 5px;
+  }
+  .button-content:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+  .box-padding{
+
+  }
+  .para-content{
+    font-size: 12px;
+  }
+  body{
+    background-color: #F1F1F3;
+  }
+  /* nav style */
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  /* bannar style */
+  .bannar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding:60px 75px
+
+  }
+  .bannar-content{
+    width: 500px;
+    height: 200px;
+  }
+  .bannar-img{
+    width: 450px;
+    height: 400px;
+  }
+  .bannar-title{
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .banner-cap{ 
+    font-weight: 600;
+    font-size: 20px;
+    color: #928f8f;
+  }
+  .distinct-backgrounds{
+    display: flex;
+    padding:20px 0;
+    gap: 24px;
+    
+  }
+  .distinct-1{
+    background-color: #a3bce7;
+    padding: 25px;
+    border-radius: 5px;
+    
+  }
+  .distinct-2{
+    background-color: #C6E4D6;
+    padding: 25px;
+    border-radius: 5px;
+    
+  }
+  .distinct-3{
+    background-color: #F7EBCF;
+    padding: 25px;
+    border-radius: 5px;
+    
+  }
+  .distinct-button{
+    background-color: #5490F5;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+  }
+  .distinct-button:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+  .distinct-button2{
+    background-color: #09A15C;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+  }
+  .distinct-button2:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+  .distinct-button3{
+    background-color: #FFC239;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+  }
+  .distinct-button3:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+  .distinct-para{
+    font-size: 12px;
+  }
+  .distinct-para2{
+    font-size: 12px;
+  }
+  .distinct-para3{
+    font-size: 12px;
+  }
+  .bd-img{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .dis-title{
+    font-size: 13px;
+    margin: -5px 0;
+  }
+  .dis-para{
+    font-size: 13px;
+    color: #88888d;
+  }
