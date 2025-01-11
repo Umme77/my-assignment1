@@ -172,6 +172,7 @@
     margin-left: 381px;
     margin-top: -25px;
   }
+  
   .child{
     padding: 20px 30px;
     font-weight: 800;
@@ -180,6 +181,7 @@
     border: none;
     border-radius: 5px;
   } 
+ 
  .donate{
     justify-content: space-around;
   }
@@ -187,11 +189,50 @@
     margin-left: 415px;
 }
 
-input {
+ input {
   padding: 10px 220px;
   border: none;
   }
   .donate-content button{
     margin-left: 660px;
   }
+  /* footer style */
+  .footer-pat{
+    background-color: #C6E4D6;
+    border-radius: 5px;
+    padding:65px 90px;
+    margin-top: 60px;
+  }
+  .footer-content{
+    text-align: center;
+  }
+  form{
+    max-width: 570px;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  form input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
   
+  form input[type="submit"]{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    background-color: #006A50;
+    color:#fff;
+  }
+  form input[type="text"]{
+    width: 95%;
+  }
+  input{
+    border: 0;
+  }
+  samp{
+    color: #545458;
+  }
